@@ -8,20 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		D2F116732107C9E4001596D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F116722107C9E4001596D3 /* AppDelegate.swift */; };
-		D2F116752107C9E4001596D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F116742107C9E4001596D3 /* ViewController.swift */; };
-		D2F116782107C9E4001596D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F116762107C9E4001596D3 /* Main.storyboard */; };
 		D2F1167A2107C9E6001596D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2F116792107C9E6001596D3 /* Assets.xcassets */; };
 		D2F1167D2107C9E6001596D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2F1167B2107C9E6001596D3 /* LaunchScreen.storyboard */; };
+		D2F116852107CA51001596D3 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F116842107CA51001596D3 /* MainVC.swift */; };
+		D2F116882107CBF0001596D3 /* UIView+AutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F116872107CBF0001596D3 /* UIView+AutoLayout.swift */; };
+		D2F39DFA2107E840007FE57D /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F39DF92107E83F007FE57D /* iAd.framework */; };
+		D2F39DFC2107E846007FE57D /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F39DFB2107E846007FE57D /* AdSupport.framework */; };
+		D2F39DFE2107E885007FE57D /* AppsFlyerLib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D2F39DFD2107E885007FE57D /* AppsFlyerLib.framework */; };
+		D2F39E0021090F3A007FE57D /* MainVC+propertiesAnchors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F39DFF21090F3A007FE57D /* MainVC+propertiesAnchors.swift */; };
+		D2F39E0321092FEA007FE57D /* MainVC+AppsflyerTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F39E0221092FEA007FE57D /* MainVC+AppsflyerTracker.swift */; };
+		D2F39E0521093157007FE57D /* MainVC+AppsflyerTrackerGCD.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F39E0421093157007FE57D /* MainVC+AppsflyerTrackerGCD.swift */; };
+		D2F39E07210A67F9007FE57D /* MainVC+TextViewLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F39E06210A67F9007FE57D /* MainVC+TextViewLogger.swift */; };
+		D2F39E09210A6D51007FE57D /* UIColor+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2F39E08210A6D51007FE57D /* UIColor+RGB.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D2F1166F2107C9E4001596D3 /* Appsflyer_SDK_Validator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Appsflyer_SDK_Validator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2F116722107C9E4001596D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D2F116742107C9E4001596D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D2F116772107C9E4001596D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D2F116792107C9E6001596D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2F1167C2107C9E6001596D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2F1167E2107C9E6001596D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D2F116842107CA51001596D3 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		D2F116872107CBF0001596D3 /* UIView+AutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+AutoLayout.swift"; sourceTree = "<group>"; };
+		D2F39DF92107E83F007FE57D /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		D2F39DFB2107E846007FE57D /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		D2F39DFD2107E885007FE57D /* AppsFlyerLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AppsFlyerLib.framework; sourceTree = "<group>"; };
+		D2F39DFF21090F3A007FE57D /* MainVC+propertiesAnchors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC+propertiesAnchors.swift"; sourceTree = "<group>"; };
+		D2F39E0221092FEA007FE57D /* MainVC+AppsflyerTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC+AppsflyerTracker.swift"; sourceTree = "<group>"; };
+		D2F39E0421093157007FE57D /* MainVC+AppsflyerTrackerGCD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC+AppsflyerTrackerGCD.swift"; sourceTree = "<group>"; };
+		D2F39E06210A67F9007FE57D /* MainVC+TextViewLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MainVC+TextViewLogger.swift"; sourceTree = "<group>"; };
+		D2F39E08210A6D51007FE57D /* UIColor+RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+RGB.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2F39DFC2107E846007FE57D /* AdSupport.framework in Frameworks */,
+				D2F39DFE2107E885007FE57D /* AppsFlyerLib.framework in Frameworks */,
+				D2F39DFA2107E840007FE57D /* iAd.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,7 @@
 			children = (
 				D2F116712107C9E4001596D3 /* Appsflyer_SDK_Validator */,
 				D2F116702107C9E4001596D3 /* Products */,
+				D2F39DF82107E83F007FE57D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +75,44 @@
 			isa = PBXGroup;
 			children = (
 				D2F116722107C9E4001596D3 /* AppDelegate.swift */,
-				D2F116742107C9E4001596D3 /* ViewController.swift */,
-				D2F116762107C9E4001596D3 /* Main.storyboard */,
+				D2F116842107CA51001596D3 /* MainVC.swift */,
+				D2F39E0121092FA1007FE57D /* MainVC+Extensions */,
+				D2F116862107CBD0001596D3 /* util */,
 				D2F116792107C9E6001596D3 /* Assets.xcassets */,
 				D2F1167B2107C9E6001596D3 /* LaunchScreen.storyboard */,
 				D2F1167E2107C9E6001596D3 /* Info.plist */,
 			);
 			path = Appsflyer_SDK_Validator;
+			sourceTree = "<group>";
+		};
+		D2F116862107CBD0001596D3 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				D2F116872107CBF0001596D3 /* UIView+AutoLayout.swift */,
+				D2F39E08210A6D51007FE57D /* UIColor+RGB.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		D2F39DF82107E83F007FE57D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2F39DFD2107E885007FE57D /* AppsFlyerLib.framework */,
+				D2F39DFB2107E846007FE57D /* AdSupport.framework */,
+				D2F39DF92107E83F007FE57D /* iAd.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2F39E0121092FA1007FE57D /* MainVC+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D2F39DFF21090F3A007FE57D /* MainVC+propertiesAnchors.swift */,
+				D2F39E0221092FEA007FE57D /* MainVC+AppsflyerTracker.swift */,
+				D2F39E0421093157007FE57D /* MainVC+AppsflyerTrackerGCD.swift */,
+				D2F39E06210A67F9007FE57D /* MainVC+TextViewLogger.swift */,
+			);
+			path = "MainVC+Extensions";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,7 +175,6 @@
 			files = (
 				D2F1167D2107C9E6001596D3 /* LaunchScreen.storyboard in Resources */,
 				D2F1167A2107C9E6001596D3 /* Assets.xcassets in Resources */,
-				D2F116782107C9E4001596D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +185,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D2F116752107C9E4001596D3 /* ViewController.swift in Sources */,
+				D2F39E0521093157007FE57D /* MainVC+AppsflyerTrackerGCD.swift in Sources */,
 				D2F116732107C9E4001596D3 /* AppDelegate.swift in Sources */,
+				D2F39E07210A67F9007FE57D /* MainVC+TextViewLogger.swift in Sources */,
+				D2F39E0021090F3A007FE57D /* MainVC+propertiesAnchors.swift in Sources */,
+				D2F116882107CBF0001596D3 /* UIView+AutoLayout.swift in Sources */,
+				D2F116852107CA51001596D3 /* MainVC.swift in Sources */,
+				D2F39E0321092FEA007FE57D /* MainVC+AppsflyerTracker.swift in Sources */,
+				D2F39E09210A6D51007FE57D /* UIColor+RGB.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		D2F116762107C9E4001596D3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D2F116772107C9E4001596D3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		D2F1167B2107C9E6001596D3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -281,7 +329,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AECMEVD33K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Appsflyer_SDK_Validator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -298,7 +352,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AECMEVD33K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Appsflyer_SDK_Validator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
