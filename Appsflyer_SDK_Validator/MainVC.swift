@@ -189,8 +189,8 @@ class MainVC: UIViewController, AppsFlyerTrackerDelegate {
     override func viewDidLoad() {
         self.view.backgroundColor = .white
         
-        AppsFlyerTracker.shared()?.appsFlyerDevKey = "UBZy5orcdbz3RYpbK6z7AW"
-        AppsFlyerTracker.shared()?.appleAppID = "122222222"
+        AppsFlyerTracker.shared()?.appsFlyerDevKey = devTextField.text
+        AppsFlyerTracker.shared()?.appleAppID = appIdTextField.text
         AppsFlyerTracker.shared()?.delegate = self
         
         //Setting debugger
